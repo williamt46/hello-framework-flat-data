@@ -96,4 +96,17 @@ function vehicleChart(data, {width}) {
   </div>
 </div>
 
+<div class="grid grid-cols-1">
+  <div class="card">
+   </div>
+</div>
 Data: Jonathan C. McDowell, [General Catalog of Artificial Space Objects](https://planet4589.org/space/gcat)
+
+<div class="card">Example Grid and Card Layouts
+<div class="grid grid-cols-2">
+  <div class="card grid-colspan-2">one–two</div>
+  <div class="card">three</div>
+  <div class="card">four</div>
+
+</div>
+</div>
