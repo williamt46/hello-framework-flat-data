@@ -20,4 +20,4 @@ jobs:
         uses: githubocto/flat@v3
         with:
           http_url: https://pudding.cool/2017/12/mars-data/marsWeather.json
-          downloaded_filename: marsWeather.json
+          downloaded_filename: marsWeather
