@@ -6,7 +6,6 @@ on:
   push:
     paths:
       - .github/workflows/flat.yml
-      - ./postprocess.js
 jobs:
   scheduled:
     runs-on: ubuntu-latest
@@ -21,5 +20,4 @@ jobs:
         uses: githubocto/flat@v3
         with:
           http_url: https://pudding.cool/2017/12/mars-data/marsWeather.json
-          postprocess: ./postprocess.js
           downloaded_filename: marsWeather
