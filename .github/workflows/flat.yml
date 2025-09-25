@@ -23,3 +23,8 @@ jobs:
         with:
           http_url: https://pudding.cool/2017/12/mars-data/marsWeather.json
           downloaded_filename: marsWeather.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://pudding.cool/2017/12/mars-data/earthWeather.json
+          downloaded_filename: earthWeather.json
